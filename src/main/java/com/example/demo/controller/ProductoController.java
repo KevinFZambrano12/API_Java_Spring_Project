@@ -21,8 +21,8 @@ public class ProductoController {
     private List<Producto> productos = new ArrayList<>(
         Arrays.asList(
             new Producto(1L, "Camiseta", 25.0),
-            new Producto(2L, "Pantalón", 40.0),
-            new Producto(3L, "Zapatos", 60.0)
+            new Producto(2L, "Pantalón azul", 40.0),
+            new Producto(3L, "Zapatos rojas", 60.0)
         )
     );
 
