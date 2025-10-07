@@ -15,7 +15,7 @@ import com.example.demo.model.Producto;
 
 @RestController
 @RequestMapping("/api/productos")
-@CrossOrigin(origins = "https://kevinfzambrano12.github.io/ProyectoReactpractica")
+@CrossOrigin(origins = "https://kevinfzambrano12.github.io")
 
 public class ProductoController {
     private List<Producto> productos = new ArrayList<>(
